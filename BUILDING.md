@@ -47,6 +47,10 @@ This will open a list with all the available machine targets, choose the one you
 
 ![choose machine target](./assets/img/chooseMachineTobuild.jpg)
 
+After the machine target is chosen, is also asked which kind of image you want to build, choose the `torizon-core-common-docker-dev` option:
+
+![choose image](./assets/img/chooseImageKind.jpg)
+
 ### Building the Image
 
 After the machine target is chosen, you can build the image. To do this, run the `.🆕 Build` task, click in it label on the VS Code task runner list:
