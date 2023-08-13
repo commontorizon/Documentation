@@ -7,3 +7,4 @@ Common Torizon General Documentation repository.
 ## Documentation
 
 - [How to Build](./BUILDING.md)
+- [Flash Common Torizon to SDCard for Raspberry Pi](./FLASH-RPI.md)
