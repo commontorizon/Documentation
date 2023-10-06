@@ -39,7 +39,7 @@ This will take a while, wait until the task is done. You will have a message lik
 
 ### Choosing the Machine Target
 
-After the workdir is initialized, you need to choose the machine target to build the image. To do this, run the `.🛠️ Configure Build to Machine` task, click in it label on the VS Code task runner list:
+After the workdir is initialized, you need to choose the machine target to build the image. To do this, run the `.🛠️ Configure Machine and Image` task, click in it label on the VS Code task runner list:
 
 ![configure build to machine](./assets/img/configureBuildToMachine.jpg)
 
