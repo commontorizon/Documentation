@@ -50,6 +50,20 @@ What are the differences between the features available for Torizon on Toradex m
 
 > ⚠️**** **OTA Update:** Auto rollback is not implemented for x86-64;
 
+## Telemetry
+
+Only anonymous data is collected. Please consider that the data we collect is used to improve your development experience and better serve you. We use the data to know where put the efforts, for the most used machines.
+
+The [service that collects the data is the `telemetry_0.1.bb`](https://github.com/commontorizon/meta-common-torizon/tree/kirkstone/recipes-support/telemetry/telemetry). You can check the data that is collect from the `telemetry` script, in summary:
+
+- User Region;
+- Board Model;
+- Board Architecture;
+- Common Torizon OS Version;
+- dmesg logs;
+
+> ⚠️ This data is sent to the server only once on the boot, and only if the user has an internet connection.
+
 ## Questions?
 
-If you have any questions, you can use the github issues, the [Torizon Community](https://community.toradex.com) or even join our discord channel: https://discord.gg/qKZgCq95df
+If you have any questions or feedback you can [join our discord channel](https://discord.gg/qKZgCq95df), you can use the github issues or post it on the [Torizon Community](https://community.toradex.com).
