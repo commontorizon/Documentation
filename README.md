@@ -12,4 +12,5 @@ Torizon is a software platform that simplifies the process of developing and mai
 - [Flash Common Torizon to SDCard for Raspberry Pi](./FLASH-RPI.md)
 - [Flash Common Torizon to SDCard for x86_64](./FLASH-X86.md)
 - [First Boot](./FIRST-BOOT.md)
+- [Prebuilt Development Images](./PRE-BUILT-DEV.md)
 - [Serial UART Configuration](UART-PINS.md)
