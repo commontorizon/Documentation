@@ -4,7 +4,7 @@
   <img src="/assets/img/TCB128.png" alt="TorizonCore Builder Logo">
 </p>
 
-For each development cycle, we provide development prebuilt images for the following targets:
+For each development cycle, [we provide development prebuilt images](https://github.com/commontorizon/meta-common-torizon/releases) for the following targets:
 
 - Beagle Bone Black
 - Beagle Play
