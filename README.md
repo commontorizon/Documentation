@@ -14,3 +14,9 @@ Torizon is a software platform that simplifies the process of developing and mai
 - [First Boot](./FIRST-BOOT.md)
 - [Prebuilt Development Images](./PRE-BUILT-DEV.md)
 - [Serial UART Configuration](UART-PINS.md)
+
+## Sponsors
+
+<p align="center">
+  <img src="/assets/img/toradexLogo.png" alt="TorizonCore Builder Logo">
+</p>
