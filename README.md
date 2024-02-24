@@ -18,5 +18,5 @@ Torizon is a software platform that simplifies the process of developing and mai
 ## Sponsors
 
 <p align="center">
-  <img src="/assets/img/toradexLogo.png" alt="TorizonCore Builder Logo">
+  <img src="https://github.com/commontorizon/Documentation/blob/main/assets/img/toradexLogo.png?raw=true" alt="TorizonCore Builder Logo">
 </p>
