@@ -7,18 +7,18 @@
 
 ## Rpi Imager with Common Torizon OS Image List
 
-For have the Common Torizon images available on Raspberry Pi Imager, you need to use the [Common Torizon OS Image List](https://github.com/commontorizon/meta-common-torizon/releases/tag/v6.4.0-common) when starting the the Raspberry Pi Imager. Open a terminal and run the follow:
+For have the Common Torizon images available on Raspberry Pi Imager, you need to use the [Common Torizon OS Image List](https://github.com/commontorizon/meta-common-torizon/releases/tag/v6.6.0-common) when starting the the Raspberry Pi Imager. Open a terminal and run the follow:
 
 - Linux:
 
     ```bash
-    rpi-imager --repo https://github.com/commontorizon/meta-common-torizon/releases/download/v6.4.0-common/os_list_imagingutility.json 
+    rpi-imager --repo https://github.com/commontorizon/meta-common-torizon/releases/download/v6.6.0-common/os_list_imagingutility.json
     ```
 
 - Windows:
 
     ```powershell
-    cd "C:\Program Files (x86)\Raspberry Pi Imager\" & rpi-imager.exe  --repo https://github.com/commontorizon/meta-common-torizon/releases/download/v6.4.0-common/os_list_imagingutility.json
+    cd "C:\Program Files (x86)\Raspberry Pi Imager\" & rpi-imager.exe  --repo https://github.com/commontorizon/meta-common-torizon/releases/download/v6.6.0-common/os_list_imagingutility.json
     ```
 
 Choose the option that match with your hardware:
