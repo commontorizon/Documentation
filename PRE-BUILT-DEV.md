@@ -8,9 +8,14 @@ For each development cycle, [we provide development prebuilt images](https://git
 
 - Beagle Bone Black
 - Beagle Play
+- Intel x86-64
+- Nezha D1
+- Qemu arm64
+- Qemu x86-64
+- Raspberry Pi Zero W
+- Raspberry Pi Zero 2 W
 - Raspberry Pi 3
 - Raspberry Pi 4
-- Intel x86-64
 
 These images are available to accelerate the development and evaluation of the Torizon ecosystem, it's come with some packages and services for development and debugging already set:
 
