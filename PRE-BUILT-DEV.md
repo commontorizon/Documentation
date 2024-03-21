@@ -1,7 +1,7 @@
 # Prebuilt Development Images
 
 <p align="center">
-  <img src="/assets/img/TCB128.png" alt="TorizonCore Builder Logo">
+  <img src="https://github.com/commontorizon/Documentation/blob/main/assets/img/TCB128.png?raw=true" alt="TorizonCore Builder Logo">
 </p>
 
 For each development cycle, [we provide development prebuilt images](https://github.com/commontorizon/meta-common-torizon/releases) for the following targets:
@@ -28,27 +28,25 @@ These images are available to accelerate the development and evaluation of the T
 
 What are the differences between the features available for Torizon on Toradex modules and the images available for community boards?
 
-| Feature                      | Toradex SoM | Rpi3 | Rpi4 | Nezha D1 | x86-64 | Beagle Bone Black | Rpi Zero W2 | BeaglePlay |
-| ---------------------------- | ----------- | ---- | ---- | -------- | ------ | ----------------- | ----------- | ---------- |
-| OTA Update OS Image          | ✅           | ✅    | ✅    |          | ⚠️**** |                   | ✅           |            |
-| OTA Update Container App     | ✅           | ✅    | ✅    | ✅        | ✅      | ✅                 | ✅           | ✅          |
-| OTA Update Bootloader        | ✅           |      |      |          |        |                   |             |            |
-| Device Monitoring            | ✅           | ✅    | ✅    | ✅        | ✅      | ✅                 | ✅           | ✅          |
-| LTS Hardware & BSP           | ✅           |      |      |          |        |                   |             |            |
-| Free Toradex Technical Support       | ✅           |      |      |          |        |                   |             |            |
-| Prebuilt Image   | ✅           | ✅    | ✅    | ✅        | ✅      | ✅                 | ✅           | ✅          |
-| QA Pipeline         | ✅           |      |      |          |        |                   |             |            |
-| TEZI*      | ✅           |      |      |          |        |                   |             |            |
-| TCB** | ✅           |      |      |          |        |                   |             |            |
-| VS Code Ext | ✅           | ✅    | ✅    | ⚠️***    | ⚠️***  | ✅                 | ✅           | ✅          |
+| Feature                      | Toradex SoM | Rpi3 | Rpi4 | Nezha D1 | x86-64 | Beagle Bone Black | Rpi Zero W2 | BeaglePlay | Rpi Zero W | QEMU x86-64 | QEMU arm64 |
+| ---------------------------- | ----------- | ---- | ---- | -------- | ------ | ----------------- | ----------- | ---------- | ---------- | ----------- | ---------- |
+| OTA Update OS Image          | ✅          | ✅   | ✅   |          | ✅     |                   | ✅          |            | ✅         | ✅          |            |
+| OTA Update Container App     | ✅          | ✅   | ✅   | ✅       | ✅     | ✅                | ✅          | ✅         | ✅         | ✅          | ✅         |
+| OTA Update Bootloader        | ✅          |      |      |          |        |                   |             |            |            |             |            |
+| Device Monitoring            | ✅          | ✅   | ✅   | ✅       | ✅     | ✅                | ✅          | ✅         | ✅         | ✅          | ✅         |
+| LTS Hardware & BSP           | ✅          |      |      |          |        |                   |             |            |            |             |            |
+| Free Technical Support       | ✅          |      |      |          |        |                   |             |            |            |             |            |
+| Prebuilt Torizon OS Image    | ✅          | ✅   | ✅   | ✅       | ✅     | ✅                | ✅          | ✅         | ✅         | ✅          | ✅         |
+| QA Approved Releases         | ✅          |      |      |          |        |                   |             |            |            |             |            |
+| Provisioning with TEZI*      | ✅          |      |      |          |        |                   |             |            |            |             |            |
+| Image Customizing with TCB** | ✅          |      |      |          |        |                   |             |            |            |             |            |
+| VS Code extension 2 support  | ✅          | ✅   | ✅   | ⚠️***     | ⚠️***   | ✅                | ✅          | ✅         | ⚠️***       | ⚠️***        | ✅         |
 
-> ⚠️* **TEZI**: Toradex Easy Installer;
+> ⚠️* **TEZI**: Toradex Easy Installer
 
-> ⚠️** **TCB**: TorizonCore Builder;
+>⚠️** **TCB**: TorizonCore Builder
 
-> ⚠️*** **VS Code Extension**: are not all the templates that support RISC-V and x86-64 architectures;
-
-> ⚠️**** **OTA Update:** Auto rollback is not implemented for x86-64;
+> ⚠️*** **VS Code Extension**: are not all the templates that support RISC-V and x86-64 architectures
 
 ## Telemetry
 
