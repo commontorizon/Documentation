@@ -55,7 +55,8 @@ The build can take a while, depending on your internet connection and how powerf
 - [git](https://git-scm.com/)
 - [Docker](https://docs.docker.com/install/)
 - [VS Code](https://code.visualstudio.com/)
-- [Remote Containers VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- [VS Code Task Runner Extension](https://marketplace.visualstudio.com/items?itemName=microhobby.taskrunnercodeplus)
+- [VS Code Remote Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ## First Steps
 
@@ -79,7 +80,7 @@ Open the repository in VS Code, a notification will be shown then click in the `
 
 This step will fetch all the repositories and checkout the correct branch for each one. To start run the `.▶️ Init Workdir for Common Torizon`, click in it label on the VS Code task runner list:
 
-![Init workdir for common torizon](./assets/img/taskRunnerInitWorkdir.jpg)
+![Init workdir for common torizon](assets/image.png-BUILDING.png)
 
 This will take a while, wait until the task is done. You will have a message like this on the terminal:
 
@@ -87,9 +88,9 @@ This will take a while, wait until the task is done. You will have a message lik
 
 ### Choosing the Machine Target
 
-After the workdir is initialized, you need to choose the machine target to build the image. To do this, run the `.🛠️ Configure Machine and Image` task, click in it label on the VS Code task runner list:
+After the workdir is initialized, you need to choose the machine target to build the image. To do this, run the `Configure Machine and Image` task, click in it label on the VS Code task runner list:
 
-![configure build to machine](./assets/img/configureBuildToMachine.jpg)
+![configure build to machine](assets/image.png-BUILDING-1.png)
 
 This will open a list with all the available machine targets, choose the one you want to build the image, by clicking in it label or typing the name, or part of it, and pressing enter:
 
@@ -101,9 +102,9 @@ After the machine target is chosen, is also asked which kind of image you want t
 
 ### Building the Image
 
-After the machine target is chosen, you can build the image. To do this, run the `.🆕 Build` task, click in it label on the VS Code task runner list:
+After the machine target is chosen, you can build the image. To do this, run the `Build` task, click in it label on the VS Code task runner list:
 
-![build image](./assets/img/buildImage.jpg)
+![build image](assets/image.png-BUILDING-2.png)
 
 > ⚠️ The first build will take a while, because all the dependencies will be downloaded and cached. This will depend on your internet connection and how powerful is your development machine. Remember you are building a Linux distribution from scratch, from source code, so it will take a while. Be patient.
 
