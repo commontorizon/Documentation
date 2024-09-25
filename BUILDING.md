@@ -30,7 +30,7 @@ cd commontorizon-manifest
 
 ### Arguments
 
-- `<workdir>`: The absolute path to the directory where the repositories will be cloned;
+- `<workdir>`: The absolute path to the directory where the source code and the images will be stored;
 - `<machine>`: The machine target to build the image;
     - The machine options are listed in the [https://github.com/commontorizon/commontorizon-manifest/blob/kirkstone/.vscode/machines.json](https://github.com/commontorizon/commontorizon-manifest/blob/kirkstone/.vscode/machines.json) file;
 - `<release>`: The release type to build the image;
@@ -45,6 +45,8 @@ Example to build the `torizon-core-common-docker-dev` image for the `intel-corei
 ```bash
 ./.scripts/build.sh /home/user/build intel-corei7-64 dev
 ```
+
+The build can take a while, depending on your internet connection and how powerful is your development machine. At end if all goes successful , the images will be in the `<workdir>/torizon/build-torizon/deploy/images/<machine>` directory.
 
 # With VS Code
 
